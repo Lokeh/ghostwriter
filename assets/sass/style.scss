@@ -2,8 +2,8 @@
 // Colours //
 // ============================================================ //
 
-$primary: #F03838;
-$secondary: #303030;
+$primary: #608FE9;
+$secondary: #4C5D67;
 $background: #FEFEFE;
 
 /* ============================================================ */
@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
     background: $background;
-    color: #424242;
+    color: #393e46;
     font-family: "Open Sans", arial, sans-serif;
     font-size: 18px;
 }
@@ -509,14 +509,14 @@ table {
 }
 
 .footer-copyright {
-    color: #656565;
+    color: #fefefe;
     font-size: 14px;
     margin: 0;
     text-align: center;
     text-transform: uppercase;
 
     a {
-        color: #656565;
+        color: #fefefe;
         font-weight: 700;
 
         &:hover { color: #FEFEFE; }
