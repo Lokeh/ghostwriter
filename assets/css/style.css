@@ -5,14 +5,15 @@ html, body {
   height: 100%; }
 
 body {
-  background: #fefefe;
+  background: #FEFEFE;
   color: #424242;
   font-family: "Open Sans", arial, sans-serif;
   font-size: 18px; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 33px;
-  text-transform: none; }
+  text-transform: none;
+  font-family: "Roboto Slab", serif; }
 
 h1 {
   font-size: 26px; }
@@ -41,7 +42,7 @@ p {
   margin: 0 0 30px; }
 
 a {
-  color: #f03838;
+  color: #F03838;
   text-decoration: none; }
 
 ul, ol {
@@ -152,10 +153,10 @@ table {
   padding: 10px 12px;
   text-transform: uppercase; }
   .button:hover {
-    background: #f03838; }
+    background: #F03838; }
 
 .button-square {
-  background: #f03838;
+  background: #F03838;
   color: #FFF;
   float: left;
   font-size: 17px;
@@ -185,7 +186,7 @@ table {
   text-transform: uppercase; }
   .site-title a {
     float: left;
-    background: #f03838;
+    background: #F03838;
     color: #FEFEFE;
     padding: 5px 10px 6px; }
     .site-title a:hover {
@@ -247,7 +248,7 @@ table {
     color: #AEADAD; }
   .post-date a:hover,
   .blog-description a:hover {
-    color: #f03838; }
+    color: #F03838; }
   .post-date:after,
   .blog-description:after {
     border-bottom: 1px dotted #303030;
@@ -257,7 +258,7 @@ table {
     width: 100px; }
 
 .post-content a:hover {
-  border-bottom: 1px dotted #f03838;
+  border-bottom: 1px dotted #F03838;
   padding: 0 0 2px; }
 .post-content:last-child {
   margin-bottom: 0; }
@@ -282,7 +283,7 @@ table {
 .share {
   float: right; }
   .share a {
-    background: #f03838;
+    background: #F03838;
     color: #FFF;
     display: inline-block;
     font-size: 16px;
@@ -300,7 +301,7 @@ table {
 .newer-posts,
 .older-posts {
   float: left;
-  background: #f03838;
+  background: #F03838;
   color: #FEFEFE;
   font-size: 14px;
   font-weight: 600;
@@ -338,10 +339,10 @@ table {
     padding: 20px 5px; }
     .post-stub a:hover {
       background: #FCF5F5;
-      color: #f03838;
+      color: #F03838;
       padding: 20px 12px; }
       .post-stub a:hover .post-stub-tag {
-        background: #f03838; }
+        background: #F03838; }
 
 .post-stub-tag {
   background: #303030;
@@ -417,7 +418,7 @@ table {
   .author-meta a {
     color: #AEADAD; }
   .author-meta a:hover {
-    color: #f03838; }
+    color: #F03838; }
 
 .author-bio {
   margin: 20px auto 0;
@@ -459,14 +460,14 @@ table {
 /* NProgress */
 /* ============================================================ */
 #nprogress .bar {
-  background: #f03838; }
+  background: #F03838; }
 
 #nprogress .peg {
-  box-shadow: 0 0 10px #f03838, 0 0 5px #f03838; }
+  box-shadow: 0 0 10px #F03838, 0 0 5px #F03838; }
 
 #nprogress .spinner-icon {
-  border-top-color: #f03838;
-  border-left-color: #f03838; }
+  border-top-color: #F03838;
+  border-left-color: #F03838; }
 
 /* ============================================================ */
 /* Media Queries */
@@ -606,3 +607,5 @@ table {
 
   .footer-copyright {
     padding: 0 10px; } }
+
+/*# sourceMappingURL=style.css.map */
